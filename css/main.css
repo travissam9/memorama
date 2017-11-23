@@ -1,0 +1,63 @@
+main{
+  border: 1px solid black;
+  width: 90%;
+}
+
+span{
+  background: #fff;
+  font-size: 30px;
+  position: relative;
+  top: 167px ;
+}
+
+.card{
+  border: 2px solid black;
+  background-image: url("../assets/image/logo-lab.png");
+  background-position: center;
+  width: 20%;
+  height: 200px;
+  float: left;
+  margin: 1% 4%;
+}
+
+main #card1:hover,
+main #card6:hover{
+  background: grey;
+  background-image: url("../assets/image/imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #card2:hover,
+main #card9:hover{
+  background: grey;
+  background-image: url("../assets/image/imagen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #card3:hover,
+main #card8:hover{
+  background: grey;
+  background-image: url("../assets/image/imagen3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #card4:hover,
+main #card7:hover{
+  background: grey;
+  background-image: url("../assets/image/imagen4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #card5:hover{
+  background: grey;
+  background-image: url("../assets/image/imagen5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
