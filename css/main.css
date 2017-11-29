@@ -1,9 +1,19 @@
 /* realiza tus estilos aqui */
 
+.efects{
+  transform-style: preserve-3d;
+transition: 2s; 
+}
+
+.rotation-efect{
+transform: rotateY(180deg);
+}
+
 main{
   border: 1px solid black;
   width: 90%;
   height: 90%;
+  overflow: auto;
 }
 span{
   position: relative;
@@ -22,6 +32,8 @@ span{
   /* background-position: center; */
   background-size: cover;
   float: left;
+  transform-style: preserve-3d;
+  /* transition: 2s; */
 }
 
 .selfie:hover{
@@ -41,6 +53,7 @@ span{
   background-image: url("../assets/image/imagen3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  /* transform: rotateY(180deg);  */
 }
 
 .galletas:hover{
@@ -61,4 +74,9 @@ span{
 .icono{
   float: left;
   background: blue;  
+}
+
+.fondo{
+  background: blue;
+  color: white;
 }
